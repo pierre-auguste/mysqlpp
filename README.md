@@ -1,4 +1,4 @@
-# mysqlpp
+# mysqlpp [-lmysqlcppconn-static -lmysqlcppconn]
 Models for mysql used with C++
 
-[-lmysqlcppconn-static -lmysqlcppconn]
+##DO NOT USE IT FOR YOUR SAFETY

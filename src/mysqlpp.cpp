@@ -10,11 +10,11 @@ using game = std::vector<ModelObject>;
 
 void removePlayer(game& vec, size_t pos)
 {
-	//vec[pos].erase(); // delete DB row
+	vec[pos].erase(); // delete DB row
 
 	game::iterator it = vec.begin();
-    std::advance(it, pos);
-    //vec.erase(it); // delete vector entry // FIXME
+	std::advance(it, pos);
+	vec.erase(it); // delete vector entry // FIXME
 }
 
 
